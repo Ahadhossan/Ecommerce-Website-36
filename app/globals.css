@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .footer-title{
+    @apply text-xl text-black mb-6
+  }
+
+  .footer-link{
+    @apply text-black mb-4 text-[15px] opacity-90 w-fit cursor-pointer hover:text-yellow-600
+  }
+
+}
